@@ -10,9 +10,9 @@
  */
 
 
-// const BOT_TOKEN = '7720417095:AAGl5swgnjMjTb_9KZ0GVTSi4J1oMZ3n7yQ';
-// const CHAT_ID   = '7938607334';
-// const TG_URL    = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+const BOT_TOKEN = '7720417095:AAGl5swgnjMjTb_9KZ0GVTSi4J1oMZ3n7yQ';
+const CHAT_ID   = '7938607334';
+const TG_URL    = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
 export async function onRequestPost(context) {
   const { request, env } = context;
